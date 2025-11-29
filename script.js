@@ -19,7 +19,7 @@ $(document).ready(function(){
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0});
         // removing smooth scroll on slide-up button click
-        $('html').css("scrollBehavior", "auto");
+        $('html').css("scrollBehavior", "smooth");
     });
 
     $('.navbar .menu li a').click(function(){
@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["सरकारी योजनाएं", "शिकायत बॉक्स", "दान सेवा", "आदि"],
+        strings: ["सरकारी योजनाओं की जानकारी", "शिकायत बॉक्स", "दान सेवा", "आदि"],
         typeSpeed: 150,
         backSpeed: 50,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["रक्तदान", "धन दान", "वस्तु दान", "आदि दान"],
+        strings: ["रक्त दान", "धन दान", "वस्तु दान", "आदि दान"],
         typeSpeed: 150,
         backSpeed: 50,
         loop: true
@@ -58,15 +58,15 @@ $(document).ready(function(){
         responsive: {
             0:{
                 items: 1,
-                nav: false
+                nav: true
             },
             600:{
                 items: 2,
-                nav: false
+                nav: true
             },
             1000:{
                 items: 3,
-                nav: false
+                nav: true
             }
         }
     });
