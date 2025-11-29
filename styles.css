@@ -566,7 +566,7 @@ section .title::after{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
@@ -592,8 +592,8 @@ section .title::after{
     margin-top: 20px;
 }
 .owl-dot{
-    height: 13px;
-    width: 13px;
+    height: 53px;
+    width: 53px;
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
