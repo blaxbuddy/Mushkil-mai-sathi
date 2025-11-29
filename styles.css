@@ -592,8 +592,8 @@ section .title::after{
     margin-top: 20px;
 }
 .owl-dot{
-    height: 53px;
-    width: 53px;
+    height: 30px;
+    width: 30px;
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
